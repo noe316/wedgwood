@@ -229,7 +229,7 @@ header button {
 			}
 
 			.header-sns {
-				padding: 20px 0 0 5px;
+				padding: 20px 0 0;
 			}
 
 			.header-sns img {
@@ -468,6 +468,10 @@ header button {
 		.menu-container li:hover::before {
 			opacity: 1;
 			transition: 0.4s;
+		}
+
+		.menu-container li::before {
+			display: none;
 		}
 
 		li.back {
@@ -952,7 +956,3 @@ header button {
 				line-height: 1.2em;
 			}
 	}
-
-
-
-
